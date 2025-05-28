@@ -1,12 +1,23 @@
-import math
+#import math
+from math import sin, pi
+from random import randrange as rand 
+import sys 
 
-a = 25
-b = 67
-c = a + b 
+# Testing math module
+# print(math.sin(math.pi/2), end="\n\n")
 
-print(c)
+print(sin(pi/2))
 
-d = 12
-e = 16
+def sin(x):
+    if 2 * x == pi:
+        return 0.999999
+    else:
+        return None
+    
+pi = 3.14
 
-print(d+e*c)
+print(sin(pi/2))
+
+print(round(rand(1,10)/pi , 2))
+
+# print(math.sin(math.pi/2))
