@@ -50,8 +50,8 @@ def pass_Generator(special_check, pass_length):
     for index in range(n_number - 1):
         password.insert(random.randrange(pass_length - 1), num_list[random.randrange(len(num_list) - 1)])
         12
-    #for index in range(2):
-    #    password.insert(random.randrange(pass_length - 1), char_list[random.randrange(len(char_list) - 1)].upper)
+    for index in range(2):
+        password.insert(random.randrange(pass_length - 1), char_list[random.randrange(len(char_list) - 1)].upper)
         
     return password
 
